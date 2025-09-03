@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: chatcourse
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cache:
+    redis:
+      time-to-live: 600000 # 10 minutes in milliseconds
+server:
+  port: 3030
+app:
+  auth:
+    jwks-url: ${JWKS_URL:http://localhost:8081/.well-known/jwks.json}
