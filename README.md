@@ -6,8 +6,8 @@ A real-time chat system using WebSocket, developed in Java with Spring Boot, Mon
 
 - Real-time communication via WebSocket
 - Authentication based on JWKS
-- Message persistence with MongoDB
-- Data caching using Redis
+- User data persistence with MongoDB
+- Session caching using Redis
 
 ## Technologies
 
